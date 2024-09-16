@@ -1,0 +1,57 @@
+.chapter-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.chapter-title {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.chapter-title:hover {
+    background-color: #0056b3;
+}
+
+.topics {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.topics li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+}
+
+.topics li a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+.topics li a:hover {
+    color: #0056b3;
+}
+
+.topics li:hover {
+    background-color: #f0f0f0;
+}
+
+.topics li:first-child {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.topics li:last-child {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
